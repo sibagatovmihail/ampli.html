@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  background: ur(https://psdgraphics.com/file/scratched-texture.jpg) no-repeat;
+  background-color: #4643EE;
+  font-family: 'Open Sans' sans-serif;
+  background-size: cover;
+}
+
+.primary-header {
+  text-align: center;
+  border: 13px solid #FFFF00;
+  border-radius: 30px;
+}
+.primary-headers {
+  text-align: center;
+
+}
+hr {
+  border-width: 5px;
+  border-color: #205D76;
+}
+
+
+.main-heading {
+  font-size: 70px;
+  color: yellow;
+
+}
+
+.youtube span {
+  color: black;
+}
+
+.town-preview {
+  width: 650px;
+}
+
+
+.store-section {
+  display: flex;
+  display: -webkit-flex;
+  margin: 50px auto;
+  width: 450px;
+  border: 7px dashed #8DDBE3;
+  border-radius: 30px;
+}
+
+.building {
+  width: 160px;
+}
+
+.store-details {
+  margin-left: 30px;
+}
+
+.store-list li {
+  background: url(#) left no-repeat;
+  text-shadow: 1px 1px 0 rgba(0,0,0,0.3);
+  font-size: 20px;
+  padding: 0 0 0 36px;
+}
+
+.category-heading {
+  color: #0DFCFC ;
+  font-size: 40px;
+}
+
+.store-list {
+  padding-left: 15px;
+  color: #f7bb01;
+}
+
+.store-name {
+  margin-bottom: 7px;
+}
+
+.store-link {
+  color: #FBFF00;
+  font-size: 30px;
+}
+
+.primary-footer {
+  padding: 2px;
+  background-color: #FFC122;
+  text-align: center;
+}
+
+.created-by {
+  color: black;
+  font-size: 20px;
+}
