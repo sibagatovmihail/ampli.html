@@ -1,15 +1,26 @@
 body {
-  margin: 0;
-  background: ur(https://psdgraphics.com/file/scratched-texture.jpg) no-repeat;
-  background-color: #4643EE;
+  margin: 20px;
+  background: url(https://psdgraphics.com/file/scratched-texture.jpg)  no-repeat;
+  background-color: #4643E
   font-family: 'Open Sans' sans-serif;
   background-size: cover;
 }
 
 .primary-header {
-  text-align: center;
-  border: 13px solid #FFFF00;
+  text-align: center;;
+  box-shadow: 5px 5px 15px 5px #000;
   border-radius: 30px;
+  background-color: #61DBE5;
+  padding: 10px;
+  height: 600px;
+}
+.primary-info{
+  text-align: center;
+    box-shadow: 5px 5px 15px 5px #000;
+    border-radius: 30px;
+    background-color: #61DBE5;
+    padding: 10px;
+    height: 300px;
 }
 .primary-headers {
   text-align: center;
@@ -17,7 +28,7 @@ body {
 }
 hr {
   border-width: 5px;
-  border-color: #205D76;
+  border-color:#205D76;
 }
 
 
@@ -28,7 +39,7 @@ hr {
 }
 
 .youtube span {
-  color: black;
+  color:black;
 }
 
 .town-preview {
@@ -43,6 +54,8 @@ hr {
   width: 450px;
   border: 7px dashed #8DDBE3;
   border-radius: 30px;
+  box-shadow: 5px 5px 15px 5px #000;
+  background-color:#61DBE5;
 }
 
 .building {
@@ -61,7 +74,7 @@ hr {
 }
 
 .category-heading {
-  color: #0DFCFC ;
+  color: #000;
   font-size: 40px;
 }
 
@@ -74,18 +87,104 @@ hr {
   margin-bottom: 7px;
 }
 
-.store-link {
+.store-link: {
   color: #FBFF00;
   font-size: 30px;
+  text-decoration: none;
+}
+
+.store-link:hover{
+  text-decoration: underline;
+  color:green;
+}
+
+.html-link{
+  font-size: 20px;
+}
+
+.html-link:hover{
+ text-decoration: none;
+ color:yellow;
 }
 
 .primary-footer {
   padding: 2px;
   background-color: #FFC122;
   text-align: center;
+  margin: 0;
 }
 
 .created-by {
   color: black;
   font-size: 20px;
+}
+
+.animation-circle{
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-color: #FD0000;
+  position: relative;
+  animation-name: circle;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-delay: 2s;
+}
+.animation-circle:hover{
+  width: 200px;
+  height: 200px;
+  animation-play-state: paused;
+}
+
+@keyframes circle{
+  0%{
+    left: 0%;
+  }
+  50%{
+    border-radius: 0%;
+  }
+  100%{
+    left:75%;
+  }
+}
+
+.animation-circle_2{
+  margin-top: 20px;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-color:#FFF700;
+  position: relative;
+  animation-name: circle;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-delay: 1s;
+}
+.animation-circle_2:hover{
+  width: 200px;
+  height: 200px;
+  animation-play-state: paused;
+}
+
+.animation-circle_3{
+  margin-top: 20px;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-color: #00FF2A;
+  position: relative;
+  animation-name: circle;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-delay: 1.5s
+}
+.animation-circle_3:hover{
+  width: 200px;
+  height: 200px;
+  animation-play-state: paused;
 }
