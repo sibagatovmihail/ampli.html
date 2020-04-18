@@ -1,7 +1,7 @@
 body {
   margin: 20px;
   background: url(https://psdgraphics.com/file/scratched-texture.jpg)  no-repeat;
-  background-color: #4643E
+  background-color: #4643E;
   font-family: 'Open Sans' sans-serif;
   background-size: cover;
 }
@@ -119,6 +119,18 @@ hr {
   font-size: 20px;
 }
 
+.animation-content{
+  font-size: 40px;
+  font-weight: 10px;
+  text-align: center;
+  padding-top:20px;
+  text-transform: uppercase;
+  visibility: hidden;
+}
+.animation-content:hover{
+  visibility: visible;
+}
+
 .animation-circle{
   width: 250px;
   height: 250px;
@@ -132,22 +144,12 @@ hr {
   animation-delay: 2s;
 }
 .animation-circle:hover{
-  width: 200px;
-  height: 200px;
+  background-color:#818181;
   animation-play-state: paused;
+
 }
 
-@keyframes circle{
-  0%{
-    left: 0%;
-  }
-  50%{
-    border-radius: 0%;
-  }
-  100%{
-    left:75%;
-  }
-}
+
 
 .animation-circle_2{
   margin-top: 20px;
@@ -164,8 +166,7 @@ hr {
   animation-delay: 1s;
 }
 .animation-circle_2:hover{
-  width: 200px;
-  height: 200px;
+  background-color:#818181;
   animation-play-state: paused;
 }
 
@@ -184,7 +185,34 @@ hr {
   animation-delay: 1.5s
 }
 .animation-circle_3:hover{
-  width: 200px;
-  height: 200px;
+  background-color:#818181;
   animation-play-state: paused;
+}
+
+@keyframes circle{
+  0%{
+    left: 0%;
+  }
+  50%{
+    border-radius: 0%;
+  }
+  100%{
+    left:75%;
+  }
+}
+
+.game-results{
+  background-color: #fff;
+  border: ;
+  box-shadow: 5px 5px 15px 15px;
+  height: 1300px;
+  width: 1400px;
+  margin: 0 auto;
+}
+.game-title{
+  letter-spacing: 20px;
+  font-weight: 70px;
+  text-align: center;
+  padding-top: 350px;
+  
 }
